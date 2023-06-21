@@ -2,3 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  :root {
+    --sy-bg-opacity: 0.8;
+  }
+
+  .bg-gradient-pride {
+    background-image: linear-gradient(
+      to bottom,
+      rgb(237 34 36 / var(--sy-bg-opacity)),
+      rgb(243 91 34 / var(--sy-bg-opacity)),
+      rgb(249 150 33 / var(--sy-bg-opacity)),
+      rgb(245 193 30 / var(--sy-bg-opacity)),
+      rgb(241 235 27 / var(--sy-bg-opacity)) 27%,
+      rgb(241 235 27 / var(--sy-bg-opacity)),
+      rgb(241 235 27 / var(--sy-bg-opacity)) 33%,
+      rgb(99 199 32 / var(--sy-bg-opacity)),
+      rgb(12 155 73 / var(--sy-bg-opacity)),
+      rgb(33 135 141 / var(--sy-bg-opacity)),
+      rgb(57 84 165 / var(--sy-bg-opacity)),
+      rgb(97 55 155 / var(--sy-bg-opacity)),
+      rgb(147 40 142 / var(--sy-bg-opacity))
+    );
+  }
+}
