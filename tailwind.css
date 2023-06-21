@@ -14,15 +14,15 @@
       rgb(243 91 34 / var(--sy-bg-opacity)),
       rgb(249 150 33 / var(--sy-bg-opacity)),
       rgb(245 193 30 / var(--sy-bg-opacity)),
-      rgb(241 235 27 / var(--sy-bg-opacity)) 27%,
-      rgb(241 235 27 / var(--sy-bg-opacity)),
-      rgb(241 235 27 / var(--sy-bg-opacity)) 33%,
-      rgb(99 199 32 / var(--sy-bg-opacity)),
-      rgb(12 155 73 / var(--sy-bg-opacity)),
-      rgb(33 135 141 / var(--sy-bg-opacity)),
-      rgb(57 84 165 / var(--sy-bg-opacity)),
-      rgb(97 55 155 / var(--sy-bg-opacity)),
-      rgb(147 40 142 / var(--sy-bg-opacity))
+      rgb(241 235 27 / calc(var(--sy-bg-opacity) * 0.9)) 27%,
+      rgb(241 235 27 / calc(var(--sy-bg-opacity) * 0.8)),
+      rgb(241 235 27 / calc(var(--sy-bg-opacity) * 0.7)) 33%,
+      rgb(99 199 32 / calc(var(--sy-bg-opacity) * 0.6)),
+      rgb(12 155 73 / calc(var(--sy-bg-opacity) * 0.5)),
+      rgb(33 135 141 / calc(var(--sy-bg-opacity) * 0.4)),
+      rgb(57 84 165 / calc(var(--sy-bg-opacity) * 0.3)),
+      rgb(97 55 155 / calc(var(--sy-bg-opacity) * 0.2)),
+      rgb(147 40 142 / calc(var(--sy-bg-opacity) * 0.1))
     );
   }
 }
