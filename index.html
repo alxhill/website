@@ -8,25 +8,29 @@
 
   <body class="bg-black">
     <div
-      class="bg-gradient-pride z-10 flex h-[48rem] w-full flex-col place-content-center bg-cover bg-center bg-no-repeat"
+      class="bg-gradient-pride z-10 flex h-screen min-h-[64rem] w-full flex-col place-content-center bg-cover bg-center bg-no-repeat lg:h-[48rem]"
     >
-      <figure
-        class="m-32 flex min-w-fit max-w-6xl flex-none flex-col place-self-center rounded-2xl bg-white bg-opacity-60 p-12 shadow-2xl shadow-gray-700 ring-1 ring-white ring-opacity-75 lg:flex-row"
-      >
-        <img
-          src="img/paris.jpeg"
-          class="pointer-events-none mr-6 w-48 flex-initial select-none rounded-full drop-shadow-glow-lg"
-        />
-        <div class="flex flex-1 items-center justify-center">
-          <h1
-            class="bg-gradient-to-b from-slate-900 from-20% to-purple-900 to-80% bg-clip-text p-4 text-6xl font-bold text-transparent drop-shadow"
-          >
-            shuyang.gay
-          </h1>
-        </div>
-      </figure>
+      <main class="lg:mx-auto lg:w-fit">
+        <figure
+          class="m-16 flex min-w-fit max-w-6xl flex-none flex-col items-center rounded-2xl bg-white bg-opacity-60 p-16 shadow-2xl shadow-gray-700 ring-1 ring-white ring-opacity-75 lg:m-32 lg:flex-row lg:p-12"
+        >
+          <img
+            src="img/paris.jpeg"
+            class="pointer-events-none mr-6 select-none justify-self-center rounded-full p-12 drop-shadow-glow-lg lg:w-64 lg:p-0"
+          />
+          <div class="flex flex-1 items-center justify-center">
+            <h1
+              class="bg-gradient-to-b from-slate-900 from-20% to-purple-900 to-80% bg-clip-text p-4 text-center text-5xl font-bold text-transparent drop-shadow md:text-6xl"
+            >
+              shuyang.gay
+            </h1>
+          </div>
+        </figure>
+      </main>
       <!-- gradient fade out at the bottom-->
-      <div class="z-10 -mt-32 flex flex-grow bg-gradient-to-t from-black"></div>
+      <div
+        class="z-10 -mt-32 flex h-full flex-grow bg-gradient-to-t from-black"
+      ></div>
     </div>
     <div></div>
   </body>
